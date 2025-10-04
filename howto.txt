@@ -1,0 +1,20 @@
+# install pico sdk
+mkdir ${HOME}/pico/ && cd ${HOME}/pico/
+git clone https://github.com/raspberrypi/pico-sdk
+
+export PICO_SDK_PATH = ${HOME}/pico/pico-sdk/
+
+# download the project
+git clone projecturl
+cd projectdir
+
+# generate
+cmake -S . -B build
+
+# make
+cmake --build build --target ppm2usb_pipico
+
+# we can optionally load the image only to RAM (good for testing)
+# (after target_link):
+pico_set_binary_type(ppm2usb_pipico no_flash)
+

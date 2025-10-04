@@ -1,0 +1,7 @@
+[Level shifter for the Futaba F14](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgrCAMB0l3EYCZIGZIDZIBZIE4MNVsB2bADlXEnGvAFMBaARmYCgAlEVMJEJcuW69+uENlpgafGrOhI2uPN3IT0EijXXco0DFF2QkqZvDPmj-TvxJ8UQpEgn2DNMYlfQwbAO7jUdrb+dmKQbADmweJwUdgBrmwATsJ8AdJBaQbMKHC+NnaQQnEFQmF+xaJu8S5hyTypqPr1KhJa6GUt3CgpXbJ5FbhaIoNQ-fEjFaiNo8lgWNw44uRai2255eMxc24xYcQgAF70AHb0iYxI0CQgzDdXzHG85Mx4AqZwSEzX0rAWf6r8K43NgAE3A8xG2wWzkOJzOFyubEaQmamQEKIwpVGAHlwSsJFgUatRn5UdNUd0Os0RqiAVSROjOoyOkggi5WalKWwAB7iCg2fQUCCs5QSbIgAAyAFkAtgeeBlj0iE0wBAxXYAGokAA6AGcAFpwxLy1Aka7Ga64EJuG58AAKdql8pQEGYJH0qtdJFFNyEEvoADd6AAbPW6gAWAEsAGYAFzOeujAHtEnqAGIAV1jAEMAEbZ9MPPXZ44gvWoAA0qA1euDSfCkYAxoo0CAMGIkHMQO6UZSbhgAPrtgeQAdKcgDsAj6DMAcsAfsIA)
+
+![Level shifter for Futaba F14 and 3v3 logic schematics](/docs/futabaf14.png)
+
+[Various PPM interfaces](https://customelectronics.co.uk/handbook.htm)  
+Note that those circuits are designed to work with 5V logic and need to be modified. In case of Zener diodes, simply change them to 2V7.
+Although solutions with a single transistor seem simple and tempting, always prefer a solution with an opamp.
